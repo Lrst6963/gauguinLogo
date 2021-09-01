@@ -1,0 +1,5 @@
+[0901/215823.066:WARNING:process_subrange_reader.cc(60)] range 0x1401b5000 + 0x5cb18 (64) outside of  range 0x140000000 + 0x1d5000 (64) for C:\Program Files\Story\Story-writer.exe resources
+[0901/215823.068:WARNING:process_subrange_reader.cc(60)] range 0x1401b5000 + 0x5cb18 (64) outside of  range 0x140000000 + 0x1d5000 (64) for C:\Program Files\Story\Story-writer.exe resources
+[0901/215823.087:WARNING:process_subrange_reader.cc(60)] range 0x1401b5000 + 0x5cb18 (64) outside of  range 0x140000000 + 0x1d5000 (64) for C:\Program Files\Story\Story-writer.exe resources
+[0901/220103.669:WARNING:process_subrange_reader.cc(60)] range 0x1401b5000 + 0x5cb18 (64) outside of  range 0x140000000 + 0x1d5000 (64) for C:\Program Files\Story\Story-writer.exe resources
+[0901/220103.701:ERROR:process_info.cc(359)] UncheckedAllocate
