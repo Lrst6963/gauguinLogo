@@ -12,18 +12,18 @@ binwalk logo.img
 dd if=logo.img of=./bmp/1.bmp bs=1 skip=20480 count=7776054
 ```
 
-> 这里解释一下dd命令的参数
-> bs=#： block size, 复制单元大小
-> count=#：复制多少个bs
-> of=file 写到所命名的文件而不是到标准输出
-> if=file 从所命名文件读取而不是从标准输入
-> bs=size 指定块大小（既是ibs也是obs)
-> ibs=size 一次读size个byte
-> obs=size 一次写size个byte
-> cbs=size 一次转化size个byte
-> skip=blocks 从开头忽略blocks个ibs大小的块
-> seek=blocks 从开头忽略blocks个obs大小的块
-> count=n 只拷贝n个记录
+- 这里解释一下dd命令的参数
+- bs=#： block size, 复制单元大小
+- count=#：复制多少个bs
+- of=file 写到所命名的文件而不是到标准输出
+- if=file 从所命名文件读取而不是从标准输入
+- bs=size 指定块大小（既是ibs也是obs)
+- ibs=size 一次读size个byte
+- obs=size 一次写size个byte
+- cbs=size 一次转化size个byte
+- skip=blocks 从开头忽略blocks个ibs大小的块
+- seek=blocks 从开头忽略blocks个obs大小的块
+- count=n 只拷贝n个记录
 >后面的count字节怎么来的？其实是这么算的 1080 x 2400 x 3 +54 (长 x 宽 x 3 + 54)
 >![enter description here](./images/tq.png)
 
